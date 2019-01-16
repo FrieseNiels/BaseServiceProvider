@@ -6,9 +6,9 @@ use Illuminate\Support\Facades\Validator;
 
 use Illuminate\Routing\Router;
 use Illuminate\Foundation\AliasLoader;
-use Illuminate\Support\Provider;
+use Illuminate\Support\ServiceProvider;
 
-class BaseServiceProvider extends Provider
+class BaseServiceProvider extends ServiceProvider
 {
 	protected $commands = [
 		'FrieseNiels\Base\Admin\Console\MakeAdminCommand',
