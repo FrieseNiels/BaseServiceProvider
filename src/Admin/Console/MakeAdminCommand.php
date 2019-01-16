@@ -1,6 +1,6 @@
 <?php 
 
-namespace FrieseNiels\Admin\Console;
+namespace FrieseNiels\Base\Admin\Console;
 
 use Hash;
 use DirectoryIterator;
