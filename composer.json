@@ -23,7 +23,8 @@
     "extra": {
         "laravel" : {
             "providers": [
-                "FrieseNiels\\Base\\BaseServiceProvider"
+                "FrieseNiels\\Base\\BaseServiceProvider",
+                "Artesaos\\Defender\\Providers\\DefenderServiceProvider",
             ]
         }
     }
