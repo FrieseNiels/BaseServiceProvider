@@ -6,9 +6,9 @@ use Illuminate\Support\Facades\Validator;
 
 use Illuminate\Routing\Router;
 use Illuminate\Foundation\AliasLoader;
-use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Provider;
 
-class BaseServiceProvider extends ServiceProvider
+class BaseServiceProvider extends Provider
 {
 	protected $commands = [
 		'FrieseNiels\Base\Admin\Console\MakeAdminCommand',
@@ -17,7 +17,7 @@ class BaseServiceProvider extends ServiceProvider
 
 	public function boot( Router $router)
 	{
-		$this->loadRoutesFrom(__DIR__.'/router.php');
+		//$this->loadRoutesFrom(__DIR__.'/router.php');
 		$router->middleware(
 			'auth.admin',
 			'App\Http\Middleware\AuthenticateAdmin'
