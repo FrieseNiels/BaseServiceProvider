@@ -12,7 +12,7 @@ class BaseServiceProvider extends ServiceProvider
 {
 	protected $commands = [
 		'FrieseNiels\Base\Admin\Console\MakeAdminCommand',
-		'FrieseNiels\Base\Admin\Console\RolesSeeder'
+		//'FrieseNiels\Base\Admin\Console\RolesSeeder'
 	];
 
 	public function boot( Router $router)
