@@ -24,7 +24,7 @@
         "laravel" : {
             "providers": [
                 "FrieseNiels\\Base\\BaseServiceProvider",
-                "Artesaos\\Defender\\Providers\\DefenderServiceProvider",
+                "Artesaos\\Defender\\Providers\\DefenderServiceProvider"
             ]
         }
     }
