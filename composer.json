@@ -1,9 +1,14 @@
 {
     "name": "frieseniels/base",
     "description": "Base service for Laravel, create default routes and controller",
-    "type": "composer-plugin",
     "require": {
-        "artesaos/defender": "0.8.*"
+        "php": "^7.0",
+        "artesaos/defender": "0.8.*",
+        "illuminate/console": "~5.7.20",
+        "illuminate/database": "~5.7.20",
+        "illuminate/foundation": "~5.7.20",
+        "illuminate/route": "~5.7.20",
+        "illuminate/support": "~5.7.20"
     },
     "license": "MIT",
     "authors": [
@@ -11,5 +16,17 @@
             "name": "Niels van der Schaaf",
             "email": "niels@vanderschaaf.tech"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "FrieseNiels\\Base": "src/"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers": [
+                "FrieseNiels\\Base\\BaseServiceProvider"
+            ]
+        }
+    }
 }
