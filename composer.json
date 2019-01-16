@@ -19,7 +19,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "FrieseNiels\\Base": "src/"
+            "FrieseNiels\\Base\\": "src/"
         }
     },
     "extra": {
