@@ -10,7 +10,7 @@ use Illuminate\Http\Request;
 
 use \DB;
 
-class BaseController extends App\BaseController
+class BaseController extends App\Controller
 {
     protected $modelService = false;
     protected $editValidationrules = [];
