@@ -28,12 +28,12 @@ class BaseServiceProvider extends ServiceProvider
 	{
 		$this->commands( $this->commands );
 
-		$this->app->register(\Artesoas\Defender\Providers\DefenderServiceProvider::class);
+		$this->app->register(\Artesaos\Defender\Providers\DefenderServiceProvider::class);
 
 		//Create aliases
 		$loader = AliasLoader::getInstance();
 		$loader->alias('Defender', 
-			\Artesoas\Defender\Facades\Defender::class
+			\Artesaos\Defender\Facades\Defender::class
 		);
 	}
 
