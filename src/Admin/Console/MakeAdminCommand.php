@@ -14,11 +14,9 @@ use Artesaos\Defender\Facades\Defender;
 
 class MakeAdminCommand extends Command
 {
-	use InstallPackages, CreatePackage, EditPackage;
 
 	protected $signature = 'packages {action: The action you want to do, [create-package or install]}';
 
-	
 	protected $description = 'Use this plugin to make the basics of your application.';
 
 	protected $permissionsTable = 'permissions';
