@@ -1,0 +1,15 @@
+{
+    "name": "frieseniels/base",
+    "description": "Base service for Laravel, create default routes and controller",
+    "type": "composer-plugin",
+    "require": {
+        "artesaos/defender": "0.8.*"
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Niels van der Schaaf",
+            "email": "niels@vanderschaaf.tech"
+        }
+    ]
+}
