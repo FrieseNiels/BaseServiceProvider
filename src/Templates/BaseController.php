@@ -1,6 +1,6 @@
 <?php 
 
-namespace FrieseNiels\Base\Template;
+namespace FrieseNiels\Base\Templates;
 
 use App\Http\Controllers\Controller;
 use App\Http\Service\BaseService;
